@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+ <center><u><h2>Pedidos</h2></u></center>
+    <main>
+        <section>
+            <center><p>Faça seu pedido conosco! Preencha o formulário abaixo com os detalhes do seu pedido e entraremos em contato para confirmar.</p></center>
+            <hr>
+        </section>
+        <section>
+         <details>
+            <summary><h3><u>Formulário de Produtos:</u></h3></summary>  
+            <form action="pedido">
+                <fieldset>
+                    <legend>Informações do Cliente</legend>
+                    <label for="nome">Nome Completo:</label> <br>
+                    <input type="text" id="nome" name="nome">
+                    <br>
+                    <label for="email">Seu E-mail de Contato:</label>
+                    <br>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="tel">Seu Telefone de Contato:</label>
+                <br>
+                <input type="tel" id="tel" name="tel">
+                <br>
+                <label for="produto">Produto Desejado:</label>
+                <br>
+                <select name="produto" id="produto">
+                    <option value="cafe_espresso">Café Espresso</option>
+                    <option value="cafe_latte">Café Latte</option>
+                    <option value="cafe_cappuccino">Café Cappuccino</option>
+                    <option value="cafe_mocha">Café Mocha</option>
+                    <option value="cafe_americano">Café Americano</option>
+                    <option value="cafe_gelado">Café Gelado</option>
+                </select>
+                <br><br>
+
+                <button type="submit">Enviar Pedido</button>
+            
+        </fieldset> 
+            </form>
+      </details>
+        </section>      
+                
+        <hr>  
+        <section>  
+<details>
+    <summary><u><h3>Formulário para Serviços</h3></u></summary>
+    <form action="servico">
+        <fieldset>
+            <legend>Informações do Cliente</legend>
+            <label for="nome">Nome Completo:</label> <br>
+            <input type="text" id="nome" name="nome">
+        <br>
+        <label for="email">Seu E-mail de Contato:</label> <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="tel">Seu Telefone de Contato:</label> 
+        <br>
+        <input type="tel" id="tel" name="tel">
+        <br>
+            <label for="servico">Serviço Desejado:</label>
+    <br>
+    <select name="servico" id="servico">
+        <option value="corporativa">Coffe Break Corporativo</option>
+        <option value="reservas">Reserva de Espaço Privativo</option>
+        <option value="workshop">Workshop de Preparação de Café</option>
+        <option value="oficina">Oficina de Barista Iniciante</option>
+        <option value="personalizacao">Cesta de Café Personalizada</option>
+</select>
+<br><br>
+
+    <button type="submit">Enviar Solicitação de Serviço</button>
+</fieldset>
+</form>
+
+
+
+
+        </section>
+    </main>
+<hr>
+    <footer>
+        <p>&copy; 2026 Café Reale. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="./index.html">Voltar para a Página Inicial</a></li>
+        </ul>
+    </footer>
+
+
+
 </body>
 </html>
