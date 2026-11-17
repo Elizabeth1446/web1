@@ -1,0 +1,15 @@
+Motorista= input("Digite o seu Nome: ")
+Distancia= float(input("Digite a Distancia em KM: "))
+Quantidade= float(input("Quantidade de Litros consumidos: "))
+Consumo_Medio= Distancia / Quantidade
+Litro= float(input("Digite o valor do litro: "))
+Gastos= Litro * Quantidade
+print ("===============================")
+print       ("Dados do Usuario")
+print ("===============================")
+print ("Nome do Motorista: ", Motorista)
+print ("Distancia percorrida: ", Distancia, "KM")
+print ("Quantidade de Litros consumidos: ", Quantidade, "Litros")
+print ("Valor do litro: R$", Litro)
+print ("Consumo Medio: ", Consumo_Medio, "KM/L")
+print ("Gastos com Combustivel: R$", Gastos)
