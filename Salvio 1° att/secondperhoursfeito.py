@@ -1,0 +1,10 @@
+QUANTIDADE = float(input("Digite a quantidade de segundos: "))
+HORAS =int(QUANTIDADE // 3600)
+MINUTOS = int(QUANTIDADE % 3600) // 60
+SEGUNDOS = int (QUANTIDADE / 10)
+print ("===============================")
+print   ("Segundos e suas Conversões")
+print ("===============================")       
+print ("Horas: ", HORAS)
+print ("Minutos: ", MINUTOS)
+print ("Segundos: ", SEGUNDOS)
