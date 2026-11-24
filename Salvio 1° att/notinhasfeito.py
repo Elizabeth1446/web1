@@ -1,5 +1,0 @@
-PESO2 = float(input("Digite a nota da sua primeira Avaliação: "))
-PESO3 = float(input("Digite a nota da sua segunda Avaliação: "))
-PROJETO5= float(input("Digite a nota da sua terceira Avaliação: "))
-MEDIAPONDERADA= (PESO2 * 2 + PESO3 * 3 + PROJETO5 * 5) / (2 + 3 + 5)
-print("A media ponderada das suas notas é: ", MEDIAPONDERADA)

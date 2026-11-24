@@ -1,5 +1,0 @@
-nk= int(input("Digite um numero: "))
-sf= int(input("Digite um numero: "))
-el= int(input("Digite um numero: ")) 
-mairo= max(el,sf,nk)
-print("Maior numero: ", mairo)
